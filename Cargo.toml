@@ -64,7 +64,7 @@ oco_ref = { path = "./oco", version = "0.2.1" }
 or_poisoned = { path = "./or_poisoned", version = "0.1.0" }
 reactive_graph = { path = "./reactive_graph", version = "0.2.16" }
 reactive_stores = { path = "./reactive_stores", version = "0.4.4" }
-reactive_stores_macro = { path = "./reactive_stores_macro", version = "=0.4.5" }
+reactive_stores_macro = { version = "=0.4.4" }
 server_fn = { path = "./server_fn", version = "0.8.13" }
 server_fn_macro = { path = "./server_fn_macro", version = "=0.8.12" }
 server_fn_macro_default = { path = "./server_fn/server_fn_macro_default", version = "0.8.6" }
@@ -109,7 +109,7 @@ axum = { default-features = false, version = "0.8" }
 serde_qs = { default-features = false, version = "0.15" }
 syn = { default-features = false, version = "3.0" }
 xxhash-rust = { default-features = false, version = "0.8" }
-paste = { default-features = false, version = "1.0" }
+pastey = { default-features = false, version = "0.2" }
 quote = { default-features = false, version = "1.0" }
 web-sys = { default-features = false, version = "0.3" }
 js-sys = { default-features = false, version = "0.3" }

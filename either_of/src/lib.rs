@@ -12,7 +12,7 @@ use core::{
     pin::Pin,
     task::{Context, Poll},
 };
-use paste::paste;
+use pastey::paste;
 use pin_project_lite::pin_project;
 
 macro_rules! tuples {
